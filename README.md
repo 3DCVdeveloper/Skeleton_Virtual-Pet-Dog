@@ -1,2 +1,4 @@
 # Skeleton_Virtual-Pet-Dog
 Virtual Pet Dog
+
+Due to the dependence on the hardware performance of electronic pet dogs for tracking, detection, and human skeleton recognition, it is not easy to make comparisons. We can only conduct some testing on the algorithm frame rate, and the testing process can be found in the attached test_time. pdf. In summary, we used Yolo+DeepSort+Dasiampn to achieve target recognition and tracking on an electronic dog. The final FPS for target tracking is approximately 0.045, which is about 22 seconds per frame, not including human skeleton recognition. But if the built-in object detection and tracking algorithms of AstraSDK are used, not only can the FPS reach 13, but also additional human skeleton information is added. Overall, using AstraSDK is more cost-effective and has lower development costs.
